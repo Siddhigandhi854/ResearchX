@@ -1,0 +1,47 @@
+# Environment and secrets
+.env
+.env.local
+.env.*.local
+frontend/.env
+backend/.env
+
+# Uploaded research documents
+uploads/*
+!uploads/.gitkeep
+backend/uploads/
+frontend/uploads/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+backend/.venv/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+*.log
